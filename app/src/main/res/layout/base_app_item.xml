@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 凡是以layout开头的属性 其实都是经过父容器批准才能生效  因为在listView 中 layout_height 无论写什么熟悉 都是包裹内容 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/selector_list_item_bg"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/item_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@mipmap/place_holder_icon" />
+
+        <RelativeLayout
+            android:id="@+id/item_action"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_install"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/selector_btn_action_bg"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="安装"
+                android:textColor="@drawable/selector_base_font_item"
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/item_action"
+            android:layout_toRightOf="@id/item_icon">
+
+            <TextView
+                android:id="@+id/item_app_company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="北京百度网讯科技有限公司"
+                android:textColor="@drawable/list_item_company_font"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/item_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_app_company"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="百度糯米"
+                android:textColor="@drawable/selector_top_item_title_font"
+                android:textSize="18dp" />
+
+            <RatingBar
+                android:id="@+id/item_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:layout_below="@id/item_title"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:isIndicator="true"
+                android:progressDrawable="@drawable/process_ratingbar"
+                android:rating="2.5" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">小米应用商店</string>
+    <string name="action_search">搜索</string>
+    <string name="action_download">下载</string>
+    <string name="only_for_wifi">Only for Wifi</string>
+    <string name="suggestion">意见反馈</string>
+    <string name="delete_title">提示</string>
+    <string name="delete_body">确定要删除吗？</string>
+    <string name="delete_ok">确定</string>
+    <string name="delete_cancel">取消</string>
+    <string name="delete_success">删除成功</string>
+    <string name="delete_fail">删除失败</string>
+    <string name="delete_all">全部删除</string>
+    <string name="delete_all_tip">全部删除?</string>
+    <string name="only_wifi_title">网络提示</string>
+    <string name="only_wifi_body">不是Wifi网络，继续么？</string>
+    <string name="get_data_error">获取数据出错，为您转向离线</string>
+    <string name="touch_to_retry">获取失败，轻触以重试</string>
+    <string name="only_wifi_ok">继续</string>
+    <string name="only_wifi_cancel">退出</string>
+    <!--<string name="offline_file_missing">离线文件被删除，是否尝试从网络播放？</string>-->
+    <string name="redownload_tips">本地已存在，是否重新下载</string>
+    <string name="tip">小提示</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+<!--    <string name="play_offline">视频已离线</string>
+    <string name="play_no_net">没有网络</string>-->
+
+    <!-- Settings -->
+    <string name="rate_for_us">为我们评分</string>
+    <string name="can_not_open_market">无法打开市场</string>
+    <!-- Settings -->
+
+    <!-- Download -->
+    <string name="no_network">没有连接网络</string>
+    <string name="no_wifi_download">没有连接Wifi，要用流量下载吗？</string>
+    <string name="stop_mission">终止下载『%1$s』？</string>
+    <string name="surely_delete">彻底删除『%1$s』？</string>
+    <string name="downloading">正在下载</string>
+    <string name="delete_all_downloaded">删除所有下载（含文件）？</string>
+    <string name="delete_finish">删除完成</string>
+    <!-- Download -->
+
+    <!-- 仿微博主页-->
+    <string name="add_attention">加关注</string>
+    <string name="user_post">学生</string>
+    <string name="user_book">邮箱:xfshipan@gmail.com</string>
+    <string name="user_name">新浪微博:sp不会玩ps</string>
+    <string name="user_des">"求一份android开发工作..."</string>
+    <string name="user_recommend_tip">TA推荐的好书</string>
+
+    <string name="download_center">下载中心</string>
+</resources>

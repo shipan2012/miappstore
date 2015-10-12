@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_toolbar">#363940</color>
+    <color name="indicator">#ff00cd</color>
+    <color name="conmmd_yellow">#ffcc83</color>
+    <color name="conmmd_blue">#0000ff</color>
+    <color name="list_item_bg_normal">#eeeeee</color>
+    <color name="list_item_bg_pressed">#d85706</color>
+    <color name="divider">#c6c6c6</color>
+    <color name="list_item_company_font_normal">#929292</color>
+    <color name="list_item_company_font_pressed">#fff</color>
+    <color name="list_item_title_font_pressed">#fff</color>
+    <color name="list_item_title_font_normal">#474747</color>
+    <color name="list_category_item_font_press">#fff</color>
+    <color name="list_category_item_font_normal">#000</color>
+    <color name="index_top_item_bg_pre">#99f5750a</color>
+    <color name="index_top_item_bg_nor">#00ffffff</color>
+    <color name="manager_bg_nor">#ffffff</color>
+    <color name="manager_bg_pre">#fc9530</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+</resources>
