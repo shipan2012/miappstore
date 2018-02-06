@@ -5,41 +5,26 @@
 
     <ImageView
         android:id="@+id/screen_1"
-        android:layout_width="140dp"
-        android:layout_height="245dp"
-        android:paddingRight="10dp"
-        android:scaleType="fitXY" />
+        style="@style/DetailScreenshot" />
 
     <ImageView
         android:id="@+id/screen_2"
-        android:layout_width="140dp"
-        android:layout_height="245dp"
         android:layout_toRightOf="@id/screen_1"
-        android:paddingRight="10dp"
-        android:scaleType="fitXY" />
+        style="@style/DetailScreenshot" />
 
     <ImageView
         android:id="@+id/screen_3"
-        android:layout_width="140dp"
-        android:layout_height="245dp"
         android:layout_toRightOf="@id/screen_2"
-        android:paddingRight="10dp"
-        android:scaleType="fitXY" />
+        style="@style/DetailScreenshot" />
 
     <ImageView
         android:id="@+id/screen_4"
-        android:layout_width="140dp"
-        android:layout_height="245dp"
         android:layout_toRightOf="@id/screen_3"
-        android:paddingRight="10dp"
-        android:scaleType="fitXY" />
+        style="@style/DetailScreenshot" />
 
     <ImageView
         android:id="@+id/screen_5"
-        android:layout_width="140dp"
-        android:layout_height="245dp"
         android:layout_toRightOf="@id/screen_4"
-        android:paddingRight="10dp"
-        android:scaleType="fitXY" />
+        style="@style/DetailScreenshot" />
 
 </RelativeLayout>
