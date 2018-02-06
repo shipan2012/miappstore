@@ -1,23 +1,23 @@
-##高仿大米应用市场
-	一款高仿MIUI V5版本手机应用市场
-	- 功能包括：
-		- App列表的显示
-		- app详情页
-		- App下载，自动安装
-		- 多线程断点下载
-		- 通知栏显示
-	- 主要技术点：
-		- 工厂设计模式FragmentFractory
-		- 线程池的回收使用
-		- 三级缓存的使用（网络、本地、内存）
-		- ListView优化，代码的抽取
-		- 多线程多任务下载
-		- 观察者模式监听下载任务的进度变化
-		- 自定义控件的使用（感谢鸿洋的大神的博客）
-		- 其他MaterialDesign控件的使用（Toolbar,DrawerLayout等等）
+## 高仿大米应用市场
+一款高仿MIUI V5版本手机应用市场
+- 功能包括：
+	- App列表的显示
+	- app详情页
+	- App下载，自动安装
+	- 多线程断点下载
+	- 通知栏显示
+- 主要技术点：
+	- 工厂设计模式FragmentFractory
+	- 线程池的回收使用
+	- 三级缓存的使用（网络、本地、内存）
+	- ListView优化，代码的抽取
+	- 多线程多任务下载
+	- 观察者模式监听下载任务的进度变化
+	- 自定义控件的使用（感谢鸿洋的大神的博客）
+	- 其他MaterialDesign控件的使用（Toolbar,DrawerLayout等等）
 		
 --------
-##Simple English Version Introducation
+## Simple English Version Introducation
 - The main function:
 	- Displays the app detail infos
 	- Download apk&auto_install
@@ -39,11 +39,11 @@
 
 
 
-##简单演示
+## 简单演示
 ![演示](http://i.imgur.com/ZpYk48Q.gif)
 
 
-##App截图:
+## App截图:
 
 - 主界面:
 
@@ -69,10 +69,10 @@
 
 ![下载中心界面](http://i.imgur.com/iOwoBZJ.png)
 
-##关于我
-* **Email:**xfshipan@gmail.com
-* **weibo:**sp不会玩ps
+## 关于我
+* **Email:** xfshipan@gmail.com
+* **weibo:** sp不会玩ps
 
-##License
+## License
 
 This project is available under the MIT license.
