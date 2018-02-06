@@ -90,7 +90,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/fl_appinfo"
-                android:scrollbars="none" />
+                android:scrollbars="none"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
 
             <FrameLayout
                 android:id="@+id/fl_introducation"
