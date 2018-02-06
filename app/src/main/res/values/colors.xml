@@ -20,4 +20,7 @@
     <color name="black">#000000</color>
     <color name="transparent">#00000000</color>
     <color name="white">#ffffff</color>
+
+    <color name="green">#6bbf03</color>
+    <color name="greenDark">#60ad01</color>
 </resources>
