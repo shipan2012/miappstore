@@ -41,9 +41,9 @@
                 <Button
                     android:id="@+id/btn_download"
                     android:layout_width="120dp"
-                    android:layout_height="70dp"
+                    android:layout_height="42dp"
                     android:layout_centerInParent="true"
-                    android:background="@drawable/selector_download"
+                    android:background="@drawable/download_btn"
                     android:focusable="false"
                     android:gravity="center"
                     android:padding="0dp"
