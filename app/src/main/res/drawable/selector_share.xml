@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@mipmap/ic_menu_share_pressed" android:state_pressed="true" />
-    <item android:drawable="@mipmap/ic_menu_share_normal" />
+    <item android:drawable="@drawable/ic_share_color" android:state_pressed="true"/>
+    <item android:drawable="@drawable/ic_share" android:state_pressed="false"/>
+    <item android:drawable="@drawable/ic_share"/>
 </selector>
