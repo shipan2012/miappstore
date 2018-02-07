@@ -1,8 +1,10 @@
 package example.xfsp.miappstore.fragment.impl;
 
+import android.content.Intent;
 import android.view.View;
 
 import example.xfsp.miappstore.R;
+import example.xfsp.miappstore.activity.AppListActivity;
 import example.xfsp.miappstore.fragment.base.BaseViewPagerFragment;
 import example.xfsp.miappstore.view.LoadPage;
 
@@ -17,7 +19,8 @@ public class ManagerFragmnet extends BaseViewPagerFragment {
         rl_myapps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(getContext(), AppListActivity.class);
+                startActivity(intent);
             }
         });
         return view;
