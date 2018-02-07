@@ -29,6 +29,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.AppDetailActivity" />
+        <activity android:name=".activity.AppListActivity"/>
 
         <service
             android:name=".service.DownloadService"
