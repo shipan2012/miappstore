@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/local_app_list"
+    <android.support.v7.widget.SearchView
+        android:id="@+id/searchview"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#f3f3f3"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textColor="#757575"
+        app:iconifiedByDefault="false"
+        app:queryBackground="@null"
+        app:queryHint="搜索本地应用"/>
+    <me.yokeyword.indexablerv.IndexableLayout
+        android:id="@+id/indexable_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingLeft="15dp"
-        android:paddingRight="15dp"/>
+        app:indexBar_layout_width="30dp"
+        app:indexBar_textColor="@android:color/black"
+        app:indexBar_textSpace="10dp" />
 </LinearLayout>
