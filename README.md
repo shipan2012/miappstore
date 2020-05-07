@@ -68,11 +68,3 @@
 - 下载中心界面:
 
 ![下载中心界面](http://i.imgur.com/iOwoBZJ.png)
-
-##关于我
-* **Email:**xfshipan@gmail.com
-* **weibo:**sp不会玩ps
-
-##License
-
-This project is available under the MIT license.
