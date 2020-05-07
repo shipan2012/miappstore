@@ -49,10 +49,6 @@
 
 ![主界面](http://i.imgur.com/kDYkAFt.png)
 
-- 左侧菜单界面:
-
-![左侧滑动菜单](http://i.imgur.com/Bbs6iVm.png)
-
 - 下载界面:
 
 ![下载界面](http://i.imgur.com/Hz5bCzw.png)
